@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>kullaniciadi.png</file>
+    <file>password.png</file>
+    <file>icons8-car-64.png</file>
+  </qresource>
+  <qresource prefix="reno">
+    <file>daciaYazi.png</file>
+    <file>pngegg.png</file>
+    <file>reno.gif</file>
+    <file>renoult.jpg</file>
+    <file>renoYazi.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>EMR OTO</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/pngegg.png</normaloff>img/pngegg.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(70, 70, 70);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" colspan="3">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButtonYenile">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 237, 224);
+background-color: rgb(214, 214, 214);
+font: 10pt &quot;Arial&quot;;
+border-radius:7px;</string>
+         </property>
+         <property name="text">
+          <string>  YENİLE  </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidgetListe">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ARAÇ MODELİ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>MOTOR HACMİ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ARAÇ YILI</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>KM</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>YAPILAN İŞLEM</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>YAPILIŞ TARİHİ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>SAAT</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>PLAKA</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ŞİKAYET</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButtonEkle">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 237, 224);
+background-color: rgb(214, 214, 214);
+font: 10pt &quot;Arial&quot;;
+border-radius:7px;</string>
+         </property>
+         <property name="text">
+          <string>   EKLE   </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonDuzenle">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 237, 224);
+background-color: rgb(214, 214, 214);
+font: 10pt &quot;Arial&quot;;
+border-radius:7px;</string>
+         </property>
+         <property name="text">
+          <string> DÜZENLE </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="2">
+    <widget class="QCommandLinkButton" name="commandLinkButtonSSS">
+     <property name="styleSheet">
+      <string notr="true">font: 75 8pt &quot;Verdana&quot;;
+font: 75 8pt &quot;Verdana&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Sıkca Sorulan Sorular</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0,0,0);
+font: 30pt &quot;Arial&quot;;
+border-radius:5px;</string>
+     </property>
+     <property name="text">
+      <string>      ANASAYFA</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QCommandLinkButton" name="commandLinkButtonHakkimizda">
+     <property name="styleSheet">
+      <string notr="true">
+font: 75 8pt &quot;Verdana&quot;;</string>
+     </property>
+     <property name="text">
+      <string>HAKKIMIZDA</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="img/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
